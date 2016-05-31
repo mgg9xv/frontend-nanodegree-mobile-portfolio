@@ -65,7 +65,6 @@ module.exports = function(grunt){
                 }
             }
         }
-
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -74,7 +73,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     grunt.registerTask('default', ['clean','mkdir','uglify', 'cssmin', 'htmlmin', 'copy']);
 };
