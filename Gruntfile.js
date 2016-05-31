@@ -33,14 +33,20 @@ module.exports = function(grunt){
                 }
             }
         },
-        //Task to copy css files over into dist
+        //Task to copy other css files over into dist
         copy: {
             build: {
                 files: [{
                     expand: true,
-                    src: ['src/css/*'],
-                    dest: 'dist/css/',
-                    filter: 'isFile'
+                    cwd: 'src/views/',
+                    src: ['**'],
+                    dest: 'dist/views/'
+                },
+                {
+                    expand: true,
+                    cwd: 'src/img/',
+                    src:['**'],
+                    dest: 'dist/img/'
                 }]
             }
         },
@@ -67,5 +73,5 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('default', ['clean','mkdir','uglify', 'cssmin', 'htmlmin']);
+    grunt.registerTask('default', ['clean','mkdir','uglify', 'cssmin', 'htmlmin', 'copy']);
 };
