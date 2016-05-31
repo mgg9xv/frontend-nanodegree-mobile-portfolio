@@ -1,4 +1,5 @@
 module.exports = function(grunt){
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
@@ -52,18 +53,19 @@ module.exports = function(grunt){
         },
         //Task to clean/delete folders/files if they exists
         clean: {
-            dev: {
+            build: {
                 src: ['dist']
             }
         },
         //Task to create folder if it doesn't exist
         mkdir: {
-            dev: {
+            build: {
                 options: {
                     create: ['dist']
                 }
             }
         }
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -72,6 +74,7 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     grunt.registerTask('default', ['clean','mkdir','uglify', 'cssmin', 'htmlmin', 'copy']);
 };
