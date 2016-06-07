@@ -4,13 +4,21 @@ module.exports = function(grunt){
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
             build: {
-                src: 'src/js/perfmatters.js',
-                dest: 'dist/js/perfmatters.js'
+                files: {
+                    'dist/views/js/main.js': ['src/views/js/main.js'],
+                    'dist/js/perfmatters.js': ['src/js/perfmatters.js']
+
+                }
             }
         },
         cssmin: {
             build: {
                 files: [{
+                    expand: true,
+                    cwd: 'src/css',
+                    src: '*.css',
+                    dest: 'dist/css'
+                },{
                     expand: true,
                     cwd: 'src/css',
                     src: '*.css',
@@ -74,5 +82,5 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('default', ['clean','mkdir','uglify', 'cssmin', 'htmlmin', 'copy']);
+    grunt.registerTask('default', ['clean','mkdir', 'copy', 'uglify', 'cssmin', 'htmlmin']);
 };
