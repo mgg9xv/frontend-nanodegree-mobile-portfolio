@@ -11,14 +11,14 @@ The purposed of this project was to gain experience using [Chrome DevTools](http
 1. [Running the project](#running-the-project)
 1. [Optimization Made](#optimizations-made)
 
-## Downloading the Project <a name="downloading-the-project"></a>
+## Downloading the project <a name="downloading-the-project"></a>
 Clone the repo into a directory using a terminal
 ```
 git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
 ```
 
 
-## Running the Project <a name="running-the-project"></a>
+## Running the project <a name="running-the-project"></a>
 1. Navigate to the frontend-nanodegree-mobile-portfolio directory that was created when downloading the project
     ```
     cd frontend-nanodegree-mobile-portfolio
@@ -29,10 +29,10 @@ git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
     ```
 1. Run Grunt Task Runner
     ```
-    grunt minimize
+    grunt minify
     ```
-    >This will remove the `dist` directory, minimize all the html, css, and javascript files in the `src` directory, and copy them into a newly created `dist` directory.
-    **IMPORTANT: Any code changes should be made in src. Then run `grunt minimize` to minimize the files into `dist`**
+    >This will remove the `dist` directory, minifies all the html, css, and javascript files in the `src` directory, and copy them into a newly created `dist` directory.
+    **IMPORTANT: Any code changes should be made in src. Then run `grunt minify` to minify the files into `dist`**
 
 1. Navigate into `dist` directory
     ```

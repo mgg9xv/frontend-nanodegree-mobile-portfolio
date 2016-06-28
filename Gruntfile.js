@@ -82,5 +82,5 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('min', ['clean','mkdir', 'copy', 'uglify', 'cssmin', 'htmlmin']);
+    grunt.registerTask('minify', ['clean','mkdir', 'copy', 'uglify', 'cssmin', 'htmlmin']);
 };
