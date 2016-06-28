@@ -7,8 +7,8 @@ The purposed of this project was to gain experience using [Chrome DevTools](http
 * [Original Udacity README.md](./ORIGINAL-REAME.md)
 
 ## Table of Contents
-1. [Downloading Project](#downloading-the-project)
-1. [Running Project](#running-the-project)
+1. [Downloading the project](#downloading-the-project)
+1. [Running the project](#running-the-project)
 1. [Optimization Made](#optimizations-made)
 
 ## Downloading the Project <a name="downloading-the-project"></a>
