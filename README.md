@@ -7,20 +7,25 @@ The purposed of this project was to gain experience using [Chrome DevTools](http
 * [Original Udacity README.md](./ORIGINAL-REAME.md)
 
 ## Table of Contents
-1. [Downloading Project]
-1. [Running Project]
-1. [Optimization Made]
+1. [Downloading Project](#downloading-project)
+1. [Running Project](#running-project)
+1. [Optimization Made](#optimizations-made)
 
-## Downloading Project
-    Clone the repo into a directory using a terminal
-    ``` bash
-    git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
-    ```
+## Downloading Project <a href="downloading-project"></a>
+Clone the repo into a directory using a terminal
+```
+git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
+```
 
-## Running Project
+
+## Running Project <a href="running-project"></a>
 1. Navigate to the frontend-nanodegree-mobile-portfolio directory that was created when downloading the project
     ```
     cd frontend-nanodegree-mobile-portfolio
+    ```
+1. Download node modules
+    ```
+    npm install
     ```
 1. Run Grunt Task Runner
     ```
@@ -39,9 +44,10 @@ The purposed of this project was to gain experience using [Chrome DevTools](http
     ```
 
 
-## Optimizations Made
+## Optimizations Made <a href="optimizations-made"></a>
 
 Optimizations were made to the `views/js/main.js` to increase the frame rate when scrolling on `views/pizza.html`.
 
-1. First, I optimized the changePizzaSizes function so that the size of the new pizzas is calculated only once instead of calculating it for each individual pizza.
-1. Second
+* The changePizzaSizes function was altered so that the size of the new pizzas is calculated only once instead of calculating it for each individual pizza.
+* The anonymous function called when the 'DOMContentLoaded' was updated so that it would only create the number of pizzas that would be displayed on the screen based on screen size
+* The updatePositions function was changed so that the for loop didn't calculate the same values over and over requiring a read each time.
