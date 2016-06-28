@@ -23,21 +23,21 @@ git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
 ```
 cd frontend-nanodegree-mobile-portfolio
 ```
-1. Download node modules
+2. Download node modules
 ```
 npm install
 ```
-1. Run Grunt Task Runner
+3. Run Grunt Task Runner
 ```
 grunt minify
 ```
 >This will remove the `dist` directory, minifies all the html, css, and javascript files in the `src` directory, and copy them into a newly created `dist` directory.
 **IMPORTANT: Any code changes should be made in src. Then run `grunt minify` to minify the files into `dist`**
-1. Navigate into `dist` directory
+4. Navigate into `dist` directory
 ```
 cd dist
 ```
-1. Open `index.html` using your favorite browser
+5. Open `index.html` using your favorite browser
 ```
 open index.html
 ```
