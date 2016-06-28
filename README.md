@@ -4,7 +4,7 @@ The purposed of this project was to gain experience using [Chrome DevTools](http
 ## Quick Links
 * [GitHub Repository](http://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio)
 * [GitHub Pages](http://mgg9xv.github.io/frontend-nanodegree-mobile-portfolio)
-* [Original Udacity README.md](./ORIGINAL-REAME.md)
+* [Original Udacity README.md](./ORIGINAL-README.md)
 
 ## Table of Contents
 1. [Downloading the project](#downloading-the-project)
