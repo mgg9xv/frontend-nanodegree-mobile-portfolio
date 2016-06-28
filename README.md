@@ -7,18 +7,18 @@ The purposed of this project was to gain experience using [Chrome DevTools](http
 * [Original Udacity README.md](./ORIGINAL-REAME.md)
 
 ## Table of Contents
-1. [Downloading Project](#downloading-project)
-1. [Running Project](#running-project)
+1. [Downloading Project](#downloading-the-project)
+1. [Running Project](#running-the-project)
 1. [Optimization Made](#optimizations-made)
 
-## Downloading Project <a href="downloading-project"></a>
+## Downloading the Project <a name="downloading-the-project"></a>
 Clone the repo into a directory using a terminal
 ```
 git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
 ```
 
 
-## Running Project <a href="running-project"></a>
+## Running the Project <a name="running-the-project"></a>
 1. Navigate to the frontend-nanodegree-mobile-portfolio directory that was created when downloading the project
     ```
     cd frontend-nanodegree-mobile-portfolio
@@ -44,7 +44,7 @@ git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
     ```
 
 
-## Optimizations Made <a href="optimizations-made"></a>
+## Optimizations Made <a name="optimizations-made"></a>
 
 Optimizations were made to the `views/js/main.js` to increase the frame rate when scrolling on `views/pizza.html`.
 
