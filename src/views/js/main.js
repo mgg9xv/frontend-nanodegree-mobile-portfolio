@@ -428,13 +428,13 @@ var resizePizzas = function(size) {
     function changeSliderLabel(size) {
         switch (size) {
             case "1":
-                document.querySelector("#pizzaSize").innerHTML = "Small";
+                document.getElementById("pizzaSize").innerHTML = "Small";
                 return;
             case "2":
-                document.querySelector("#pizzaSize").innerHTML = "Medium";
+                document.getElementById("pizzaSize").innerHTML = "Medium";
                 return;
             case "3":
-                document.querySelector("#pizzaSize").innerHTML = "Large";
+                document.getElementById("pizzaSize").innerHTML = "Large";
                 return;
             default:
                 console.log("bug in changeSliderLabel");
@@ -446,7 +446,7 @@ var resizePizzas = function(size) {
     // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
     function determineDx(elem, size) {
         var oldWidth = elem.offsetWidth;
-        var windowWidth = document.querySelector("#randomPizzas").offsetWidth;
+        var windowWidth = document.getElementById("randomPizzas").offsetWidth;
         var oldSize = oldWidth / windowWidth;
 
         // Optional TODO: change to 3 sizes? no more xl?
@@ -472,10 +472,11 @@ var resizePizzas = function(size) {
 
     // Iterates through pizza elements on the page and changes their widths
     function changePizzaSizes(size) {
-        var dx = determineDx(document.querySelector(".randomPizzaContainer"), size);
-        var newwidth = (document.querySelector(".randomPizzaContainer").offsetWidth + dx) + 'px';
-        for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
-            document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+        var pizzaContainers = document.getElementsByClassName("randomPizzaContainer");
+        var dx = determineDx(pizzaContainers[0], size);
+        var newwidth = (pizzaContainers[0].offsetWidth + dx) + 'px';
+        for (var i = 0; i < pizzaContainers.length; i++) {
+            pizzaContainers[i].style.width = newwidth;
         }
     }
 
