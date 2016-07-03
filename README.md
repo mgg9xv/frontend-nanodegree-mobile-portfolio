@@ -51,6 +51,6 @@ git clone https://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio.git
 
 Optimizations were made to the `views/js/main.js` to increase the frame rate when scrolling on `views/pizza.html`.
 
-* The changePizzaSizes function was altered so that the size of the new pizzas is calculated only once instead of calculating it for each individual pizza.
+* The changePizzaSizes function was altered so that the size of the new pizzas is calculated only once instead of calculating it for each individual pizza. Query Selector functions were replaced getElementById and getElementsByClassName because the latter are much faster.
 * The anonymous function called when the 'DOMContentLoaded' was updated so that it would only create the number of pizzas that would be displayed on the screen based on screen size
 * The updatePositions function was changed so that the for loop didn't calculate the same values over and over requiring a read each time.
