@@ -1,4 +1,4 @@
-# Mobile Portfolio | Udacity's Frontend Nanodegree
+#  Udacity's Frontend Nanodegree Mobile Portfolio Project
 The purpose of this project was to gain experience using [Chrome DevTools](https://developer.chrome.com/devtools) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and learn how optimize a website's critical rendering path.
 
 ## Quick Links
