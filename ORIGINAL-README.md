@@ -1,7 +1,7 @@
 ## Quick Links
-* [GitHub Repository](http://github.com/mgg9xv/frontend-nanodegree-mobile-portfolio)
-* [GitHub Pages](http://mgg9xv.github.io/frontend-nanodegree-mobile-portfolio)
-* [mgg9xv's README.md](./README.md)
+* [Online Demo](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
+* [Source Code](https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio)
+* [mggwxyz's README.md](./README.md)
 
 ## Website Performance Optimization portfolio project
 
