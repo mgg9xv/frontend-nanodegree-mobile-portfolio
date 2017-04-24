@@ -1,7 +1,7 @@
 #  Mobile Portfolio | Front-End Nanodegree
 A web optimization project for Udacity's Front-End Web Developer Nanodegree
 
-### Try It Out
+## Try It Out
 [https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
 
 ## Table of Contents
@@ -32,13 +32,11 @@ The purpose of this project was to gain experience using [Chrome DevTools](https
     ```
 
 ## Running the project
-Once the project has been setup, we can start the application on a local web server
+Once the project has been setup, it can be run with the following command:
 ```
 npm start
 ```
->This will remove any existing `dist` directory, minifies all the html, css, and javascript files in the `src` directory, and copy them into a newly created `dist` directory.
-**IMPORTANT: Any code changes should be made in src. Then run `grunt minify` to minify the files into `dist`**
-
+> The project will be served to `http://127.0.0.1:8080`
 
 ## Optimizations
 
