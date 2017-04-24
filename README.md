@@ -1,6 +1,7 @@
 #  Mobile Portfolio | Front-End Nanodegree
 A web optimization project for Udacity's Front-End Web Developer Nanodegree
 
+## Try It Out
 [https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
 
 ## Table of Contents
@@ -14,8 +15,6 @@ A web optimization project for Udacity's Front-End Web Developer Nanodegree
 ## Project Overview
 The purpose of this project was to gain experience using [Chrome DevTools](https://developer.chrome.com/devtools) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and learn how optimize a website's critical rendering path. This project was part of Udacity's Front-End Web Developer Nanodegree.
 
-## Try It Out
-[https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
 
 ## Setting up the project
 Clone the project repository into a directory using a bash terminal
