@@ -1,11 +1,12 @@
 {
   "name": "frontend-nanodegree-mobile-portfolio",
   "version": "1.0.0",
-  "description": "Project for practicing website optimization",
-  "main": "index.js",
+  "description": "A web optimization project for Udacity's Front-End Web Developer Nanodegree",
   "scripts": {
-    "start": "grunt minify && cd dist && http-server",
-    "deploy": "gh-pages -d dist"
+    "start": "grunt minify && cd dist && http-server -p -o 8080",
+    "dev": "cd src && http-server -p -o 8080",
+    "demo" : "npm start",
+    "deploy": "grunt minify && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
     "website",
     "optimization"
   ],
-  "author": "Michael Gilbertson",
+  "author": "Michael Gilbertson <mggwxyz@gmail.com> (https://michaelgilbertson.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio/issues"
@@ -33,10 +34,8 @@
     "grunt-pagespeed": "^2.0.0",
     "grunt-responsive-images": "^0.1.7",
     "http-server": "^0.9.0",
-    "httpserver": "^0.2.0",
     "imagemin-mozjpeg": "^6.0.0",
-    "load-grunt-tasks": "^3.4.0",
-    "ngrok": "^0.2.2"
+    "load-grunt-tasks": "^3.4.0"
   },
   "dependencies": {
     "exec-buffer": "^3.0.0"
