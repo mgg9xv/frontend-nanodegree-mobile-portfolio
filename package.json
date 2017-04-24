@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A web optimization project for Udacity's Front-End Web Developer Nanodegree",
   "scripts": {
-    "start": "grunt minify && cd dist && http-server -p -o 8080",
-    "dev": "cd src && http-server -p -o 8080",
+    "start": "grunt minify && cd dist && http-server -p 8080 -o",
+    "dev": "cd src && http-server -p 8080 -o",
     "demo" : "npm start",
     "deploy": "grunt minify && gh-pages -d dist"
   },
