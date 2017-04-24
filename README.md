@@ -1,7 +1,7 @@
 #  Mobile Portfolio | Front-End Nanodegree
 A web optimization project for Udacity's Front-End Web Developer Nanodegree
 
-## Try It Out
+### Try It Out
 [https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
 
 ## Table of Contents
@@ -20,31 +20,29 @@ The purpose of this project was to gain experience using [Chrome DevTools](https
     git clone https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio.git
     ```
 
-1. Navigate to the frontend-nanodegree-mobile-portfolio directory that was created when downloading the project
+1. Navigate into the new project directory
 
     ```
     cd frontend-nanodegree-mobile-portfolio
     ```
-2. Download node modules
+2. Download the project's node dependencies
 
     ```
     npm install
     ```
 
 ## Running the project
-3. Prepare files and start up local web server
-
-    ```
-    npm start
-    ```
-    >This will remove the an existing `dist` directory, minifies all the html, css, and javascript files in the `src` directory, and copy them into a newly created `dist` directory.
-    **IMPORTANT: Any code changes should be made in src. Then run `grunt minify` to minify the files into `dist`**
-4. Navigate to [http://localhost:8080](http://localhost:8080) in your favorite browser
+Once the project has been setup, we can start the application on a local web server
+```
+npm start
+```
+>This will remove any existing `dist` directory, minifies all the html, css, and javascript files in the `src` directory, and copy them into a newly created `dist` directory.
+**IMPORTANT: Any code changes should be made in src. Then run `grunt minify` to minify the files into `dist`**
 
 
 ## Optimizations
 
-Optimizations were made to the `views/js/main.js` to increase the frame rate when scrolling on `views/pizza.html`.
+Optimizations were made to the `src/views/js/main.js` to increase the frame rate when scrolling on `src/views/pizza.html`.
 
 * The changePizzaSizes function was altered so that the size of the new pizzas is calculated only once instead of calculating it for each individual pizza. Query Selector functions were replaced getElementById and getElementsByClassName because the latter are much faster.
 * The anonymous function called when the 'DOMContentLoaded' was updated so that it would only create the number of pizzas that would be displayed on the screen based on screen size
