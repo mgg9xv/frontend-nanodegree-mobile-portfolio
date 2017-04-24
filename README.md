@@ -24,7 +24,7 @@ Navigate into the new project directory
 ```bash
 cd frontend-nanodegree-mobile-portfolio
 ```
-Download the project's node dependencies
+Download the project's dependencies
 
 ```bash
 npm install
