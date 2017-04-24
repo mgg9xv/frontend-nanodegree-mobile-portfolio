@@ -14,27 +14,25 @@ A web optimization project for Udacity's Front-End Web Developer Nanodegree
 ## Project Overview
 The purpose of this project was to gain experience using [Chrome DevTools](https://developer.chrome.com/devtools) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and learn how optimize a website's critical rendering path. This project was part of Udacity's Front-End Web Developer Nanodegree.
 
-
 ## Setting up the project
 Clone the project repository into a directory using a bash terminal
-```
+```bash
 git clone https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio.git
 ```
-
 Navigate into the new project directory
 
-```
+```bash
 cd frontend-nanodegree-mobile-portfolio
 ```
 Download the project's node dependencies
 
-```
+```bash
 npm install
 ```
 
 ## Running the project
 Once the project has been setup, it can be started up at `http://127.0.0.1:8080`
-```
+```bash
 npm start
 ```
 
