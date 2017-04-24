@@ -1,24 +1,25 @@
-#  Udacity's Frontend Nanodegree Mobile Portfolio Project
-The purpose of this project was to gain experience using [Chrome DevTools](https://developer.chrome.com/devtools) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and learn how optimize a website's critical rendering path.
+#  Mobile Portfolio | Front-End Nanodegree
+A web optimization project for Udacity's Front-End Web Developer Nanodegree
 
-## Quick Links
-* [Online Demo](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
-* [Source Code](https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio)
-* [Original Udacity README.md](./ORIGINAL-README.md)
+## Try It Out
+[https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
 
 ## Table of Contents
-1. [Downloading the project](#downloading-the-project)
+1. [Project Overview](#project-overview)
+1. [Setting up the project](#setting-up-the-project)
 1. [Running the project](#running-the-project)
-1. [Optimization Made](#optimizations-made)
+1. [Optimizations](#optimizations)
+1. [Resource Links](#resource-links)
 
-## Downloading the project <a name="downloading-the-project"></a>
-Clone the repo into a directory using a terminal
-```
-git clone https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio.git
-```
+## Project Overview
+The purpose of this project was to gain experience using [Chrome DevTools](https://developer.chrome.com/devtools) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) and learn how optimize a website's critical rendering path. This project was part of Udacity's Front-End Web Developer Nanodegree.
 
+## Setting up the project
+1. Clone the project repository into a directory using a bash terminal
+    ```
+    git clone https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio.git
+    ```
 
-## Running the project <a name="running-the-project"></a>
 1. Navigate to the frontend-nanodegree-mobile-portfolio directory that was created when downloading the project
 
     ```
@@ -29,6 +30,8 @@ git clone https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio.git
     ```
     npm install
     ```
+
+## Running the project
 3. Prepare files and start up local web server
 
     ```
@@ -39,7 +42,7 @@ git clone https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio.git
 4. Navigate to [http://localhost:8080](http://localhost:8080) in your favorite browser
 
 
-## Optimizations Made <a name="optimizations-made"></a>
+## Optimizations
 
 Optimizations were made to the `views/js/main.js` to increase the frame rate when scrolling on `views/pizza.html`.
 
@@ -47,3 +50,6 @@ Optimizations were made to the `views/js/main.js` to increase the frame rate whe
 * The anonymous function called when the 'DOMContentLoaded' was updated so that it would only create the number of pizzas that would be displayed on the screen based on screen size
 * The updatePositions function was changed so that the for loop didn't calculate the same values over and over requiring a read each time.
 
+## Resource Links
+* [Online Demo](https://mggwxyz.github.io/frontend-nanodegree-mobile-portfolio)
+* [Source Code](https://github.com/mggwxyz/frontend-nanodegree-mobile-portfolio)
