@@ -6,7 +6,6 @@ A web optimization project for Udacity's Front-End Web Developer Nanodegree
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-1. [Try It Out](#try-it-out)
 1. [Setting up the project](#setting-up-the-project)
 1. [Running the project](#running-the-project)
 1. [Optimizations](#optimizations)
